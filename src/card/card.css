@@ -1,0 +1,12 @@
+.check {
+    position: relative;
+    top: 15px;
+    cursor: pointer;
+    transition: transform 500ms;
+    width: 250px;
+    margin: 10px 0;
+}
+
+.check:hover {
+    transform: scale(0.8);
+}

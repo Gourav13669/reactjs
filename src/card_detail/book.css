@@ -1,0 +1,55 @@
+.book {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.book img {
+    position: relative;
+    top: 40px;
+    left: 10%;
+    border: 1px solid rgb(248, 248, 214);
+    box-shadow: 3px 2px 3px rgb(146, 144, 150);
+    transition: transform 0.5s;
+}
+
+.book img:hover {
+    transform: scale(1.1);
+}
+
+.title {
+    position: absolute;
+    top: 8%;
+    left: 30%;
+}
+
+.title h1 {
+    font-size: 3.2rem;
+}
+
+.rating {
+    position: absolute;
+    top: 54%;
+    left: 21%;
+    border: 2px dotted #ccc;
+    border-radius: 25%;
+    background-color: rgb(29, 28, 28);
+    color: rgb(255, 255, 255);
+}
+
+article {
+    width: 60%;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    word-spacing: 5px;
+    font-size: 1.2rem;
+    border-bottom: 1px dotted rgb(165, 160, 160);
+}
+
+.btnn {
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 120px;
+}
